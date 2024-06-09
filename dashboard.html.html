@@ -1,0 +1,82 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .dashboard {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            width: 300px;
+        }
+        .dashboard h1 {
+            font-size: 24px;
+            margin: 0 0 10px;
+        }
+        .dashboard .info {
+            margin-bottom: 20px;
+        }
+        .dashboard .info p {
+            margin: 5px 0;
+            font-size: 18px;
+        }
+        .dashboard .info .label {
+            color: #555;
+        }
+        .dashboard .amount {
+            font-weight: bold;
+        }
+        .dashboard .vip-plan {
+            display: inline-block;
+            background-color: #28a745;
+            color: #fff;
+            padding: 5px 10px;
+            border-radius: 5px;
+            margin-bottom: 20px;
+        }
+        .dashboard .withdraw {
+            background-color: #ff4d4f;
+            color: #fff;
+            padding: 10px;
+            border-radius: 5px;
+            text-align: center;
+            cursor: pointer;
+        }
+        .dashboard .withdraw p {
+            margin: 0;
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+    <div class="dashboard">
+        <h1>Dashboard</h1>
+        <div class="info">
+            <p class="label">TASHNICHENKO YEGOR / Ukraine +380674895135</p>
+            <p><span class="label">Amount Invested: </span><span class="amount">$1000</span></p>
+            <p><span class="label">Profits Earned: </span><span class="amount">$4200</span></p>
+            <div class="vip-plan">VIP PLAN</div>
+        </div>
+        <div class="withdraw">
+            <p>Withdraw</p>
+            <p>Pay 10% tax: USDT TRC20</p>
+        </div>
+    </div>
+</body>
+</html>
+                        
